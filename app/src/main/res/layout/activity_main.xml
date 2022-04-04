@@ -11,14 +11,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/idPBLoading"
         android:visibility="gone"
-
         android:layout_centerInParent="true"
         />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/IdRLHome"
+        android:id="@+id/idRLHome"
         android:visibility="visible"
         >
 
@@ -83,7 +82,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <ImageView
-                android:id="@+id/IdIVSearch"
+                android:id="@+id/idIVSearch"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -137,13 +136,13 @@
             android:layout_marginBottom="10dp"
             android:text="Today's Weather Forecast"
             android:textColor="@color/white"
-            android:layout_above="@id/idRvWeather"
+            android:layout_above="@id/idRVWeather"
             android:textStyle="bold"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/idRvWeather"
+            android:id="@+id/idRVWeather"
             android:layout_alignParentBottom="true"
             android:orientation="horizontal"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>

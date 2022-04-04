@@ -1,4 +1,4 @@
 package com.example.weatherapp;
 
-public class WeatherModel {
+public class WeatherRVAdapter {
 }
